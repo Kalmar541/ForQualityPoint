@@ -26,11 +26,8 @@ namespace ForQualityPoint
               
                 if (!int.TryParse(input, out int number))
                 {
-<<<<<<< HEAD
                     Console.WriteLine("Ввод некорректный. Пожалуйста, введите целое число.");
-=======
-                    Console.WriteLine("Ввод некорректный. Пожалуйста, введите целое число.");//2147483647
->>>>>>> 3ab221bbf0c181c7bf54b24ac25c7e10128af40b
+                    Console.WriteLine("Ввод некорректный. Пожалуйста, введите целое число.");
                  
                     if (input.Length >= 9)
                     {
@@ -61,12 +58,7 @@ namespace ForQualityPoint
                 if (number == int.MinValue)
                 {
                     overflow = true;
-<<<<<<< HEAD
-                    number++;                  
-=======
-                    number++;
-                    
->>>>>>> 3ab221bbf0c181c7bf54b24ac25c7e10128af40b
+                    number++;                                    
                 }
 
                 number = Math.Abs(number);
