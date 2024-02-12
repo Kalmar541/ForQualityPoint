@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ForQualityPoint
 {
@@ -26,7 +22,6 @@ namespace ForQualityPoint
               
                 if (!int.TryParse(input, out int number))
                 {
-                    Console.WriteLine("Ввод некорректный. Пожалуйста, введите целое число.");
                     Console.WriteLine("Ввод некорректный. Пожалуйста, введите целое число.");
                  
                     if (input.Length >= 9)
